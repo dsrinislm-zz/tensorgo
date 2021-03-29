@@ -1,6 +1,7 @@
 # Configure your REST endpoint and namespace in the .env config file
 
 REACT_APP_WP_URL="https://tensorgo:8890"
+
 REACT_APP_API_PATH="/wp-json/gorest/v1"
 
 # Start REST APIs before running the React app
