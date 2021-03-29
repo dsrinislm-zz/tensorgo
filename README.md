@@ -1,16 +1,30 @@
 # Installation
 
-## 1. Install React app dependencies
+## 1. Deploy the wordpress app into Web server
+
+## 2. Import the wordpress db into mysql server
+
+## 3. Login to WP admin using credentials username/password -> tensorgo/tensorgo
+
+## 4. Enable WP Rest APIs in permalinks. Settings->Permalink Settings->Common Settings->Postname
+
+## 5. Activate the `GoRest API Sync` plugin
+
+## 6. Start React App to sync/manager users from GoRest Apis into local DB.
+
+## 6.1 Install React app dependencies
+
+### `cd frontend`
 
 ### `npm install`
 
-## 2. Configure your REST endpoint and namespace in the .env config file
+## 6.2 Configure your REST endpoint and namespace in the .env config file
 
 ### `REACT_APP_WP_URL="https://tensorgo:8890"`
 
 ### `REACT_APP_API_PATH="/wp-json/gorest/v1"`
 
-## 3. Make sure REST Apis are running before starting react app
+## 6.3 Make sure REST Apis are running before starting react app
 
 ## Available Scripts
 
