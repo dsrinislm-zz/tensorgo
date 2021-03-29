@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `wp_tensorgo`.`wp_gorest_users`;
